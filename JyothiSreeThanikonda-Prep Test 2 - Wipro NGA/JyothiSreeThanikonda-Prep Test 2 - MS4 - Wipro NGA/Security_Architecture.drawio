@@ -1,0 +1,31 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" version="29.4.0">
+  <diagram name="Security Architecture" id="lsuilXUqC149F2hJc2rn">
+    <mxGraphModel dx="902" dy="464" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="PgyV1CwmDNrvFbwFfoMN-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;strokeColor=light-dark(default, #1b1d1e);" value="&lt;div&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;Users&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;(Agent / Manager / Leadership)&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="320" x="40" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="PgyV1CwmDNrvFbwFfoMN-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;Authentication&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;(Azure Active Directory)&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="87.5" width="320" x="50" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="PgyV1CwmDNrvFbwFfoMN-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Authorization&lt;br&gt;(Role-Based Access Control)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="80" width="320" x="60" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="PgyV1CwmDNrvFbwFfoMN-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Power BI Reports &amp;amp; Dashboards&lt;/font&gt;" vertex="1">
+          <mxGeometry height="90" width="320" x="50" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="PgyV1CwmDNrvFbwFfoMN-6" parent="1" style="shape=singleArrow;direction=south;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="50" width="30" x="195" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="PgyV1CwmDNrvFbwFfoMN-7" parent="1" style="shape=singleArrow;direction=south;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="50" width="30" x="190" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="PgyV1CwmDNrvFbwFfoMN-8" parent="1" style="shape=singleArrow;direction=south;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="50" width="30" x="210" y="470" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

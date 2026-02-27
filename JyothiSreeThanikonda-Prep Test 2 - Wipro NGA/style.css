@@ -1,0 +1,21 @@
+body {
+    font-family: Arial;
+}
+
+nav {
+    display: flex;
+    gap : 1rem;
+
+}
+
+.hide {
+    display: none;
+}
+
+.card {
+
+    border: 1px solid rgb(231, 15, 15);
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin: 1vh;
+}

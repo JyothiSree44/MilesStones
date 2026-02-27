@@ -1,0 +1,6 @@
+[
+    {"name" : "Web","desc":"Web related service"},
+    {"name" : "App","desc" : "App related Services are provided here.."},
+    {"name" : "Support","desc": "Support is available here"}
+
+]

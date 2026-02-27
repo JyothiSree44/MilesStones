@@ -1,0 +1,37 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" version="29.4.0">
+  <diagram id="uuww9PZ7xBXbbNME-OaY" name="Architecture_Diagram">
+    <mxGraphModel dx="902" dy="464" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="9DOc7ibMBlD-HnKnL9LW-7" edge="1" parent="1" source="ZlJtcDkGlkni3xyDotQY-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="9DOc7ibMBlD-HnKnL9LW-1" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZlJtcDkGlkni3xyDotQY-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="CRM System&#xa;(Case Records)" vertex="1">
+          <mxGeometry height="60" width="120" x="10" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9DOc7ibMBlD-HnKnL9LW-5" edge="1" parent="1" source="ZlJtcDkGlkni3xyDotQY-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="ZlJtcDkGlkni3xyDotQY-3" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZlJtcDkGlkni3xyDotQY-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Attachment Handler&#xa;(Archival Logic)" vertex="1">
+          <mxGeometry height="60" width="120" x="160" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9DOc7ibMBlD-HnKnL9LW-6" edge="1" parent="1" source="ZlJtcDkGlkni3xyDotQY-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="ZlJtcDkGlkni3xyDotQY-4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZlJtcDkGlkni3xyDotQY-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="External Storage&#xa;(Blob / File Storage)" vertex="1">
+          <mxGeometry height="60" width="120" x="310" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZlJtcDkGlkni3xyDotQY-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="External Storage&#xa;(Blob / File Storage)" vertex="1">
+          <mxGeometry height="60" width="120" x="470" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9DOc7ibMBlD-HnKnL9LW-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Secure Access Link" vertex="1">
+          <mxGeometry height="60" width="120" x="20" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="9DOc7ibMBlD-HnKnL9LW-2" parent="1" style="shape=singleArrow;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="10" width="45" x="115" y="85" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

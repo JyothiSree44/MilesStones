@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>City Service Portal</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    .hide { display: none; }
+    nav { display: flex; gap: 10px; margin-bottom: 10px; }
+    .card { border: 1px solid black; padding: 10px; margin: 10px 0; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h2>City Services</h2>
+  <nav>
+    <button onclick="showSection('home')">Home</button>
+    <button onclick="showSection('services')">Services</button>
+    <button onclick="showSection('request')">Request</button>
+    <button onclick="showSection('status')">Status</button>
+  </nav>
+</header>
+
+<main>
+
+  <section id="home">
+    <h1>Citizen Service Portal</h1>
+    <p>Apply for city services</p>
+    <button onclick="showSection('request')">Request Service</button>
+  </section>
+
+  <section id="services" class="hide">
+    <h2>Services</h2>
+    <div id="serviceList"></div>
+  </section>
+
+  <section id="request" class="hide">
+    <h2>Service Request Form</h2>
+
+    <form id="requestForm">
+      <input type="text" id="name" placeholder="Name"><br><br>
+      <input type="email" id="email" placeholder="Email"><br><br>
+
+      <select id="service">
+        <option value="">Select Service</option>
+        <option>Web</option>
+        <option>App</option>
+        <option>Support</option>
+      </select><br><br>
+
+      <button type="submit">Submit</button>
+    </form>
+
+    <p id="message"></p>
+  </section>
+
+  <section id="status" class="hide">
+    <h2>Request Status</h2>
+    <div id="requestStatus"></div>
+  </section>
+
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
